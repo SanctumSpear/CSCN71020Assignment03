@@ -1,2 +1,3 @@
-﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\kianc\source\repos\ProjectsAssingment03\x64\Debug\ProjectsAssingment03.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Assignment03.c
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\x64\Debug\ProjectsAssingment03.exe : fatal error LNK1120: 1 unresolved externals

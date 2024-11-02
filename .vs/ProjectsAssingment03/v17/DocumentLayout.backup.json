@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\",
+  "WorkspaceRootPath": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D48F1341-6A20-42AB-AA68-9A19FCDAEF4C}|Assingment03.Tests\\Assingment03.Tests.vcxproj|C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\Assingment03.Tests\\Assingment03.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D48F1341-6A20-42AB-AA68-9A19FCDAEF4C}|Assingment03.Tests\\Assingment03.Tests.vcxproj|solutionrelative:Assingment03.Tests\\Assingment03.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\ProjectsAssingment03\\Assignment03.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|solutionrelative:ProjectsAssingment03\\Assignment03.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\ProjectsAssingment03\\Assignment03.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\ProjectsAssingment03\\Assignment03.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|solutionrelative:ProjectsAssingment03\\Assignment03.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\ProjectsAssingment03\\Assignment03.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{459ED3F5-08EE-44DB-8197-8255629776D1}|ProjectsAssingment03\\ProjectsAssingment03.vcxproj|solutionrelative:ProjectsAssingment03\\Assignment03.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D48F1341-6A20-42AB-AA68-9A19FCDAEF4C}|Assingment03.Tests\\Assingment03.Tests.vcxproj|C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\Assingment03.Tests\\Assingment03.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D48F1341-6A20-42AB-AA68-9A19FCDAEF4C}|Assingment03.Tests\\Assingment03.Tests.vcxproj|solutionrelative:Assingment03.Tests\\Assingment03.Tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Assignment03.h",
-              "DocumentMoniker": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\ProjectsAssingment03\\Assignment03.h",
+              "DocumentMoniker": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\ProjectsAssingment03\\Assignment03.h",
               "RelativeDocumentMoniker": "ProjectsAssingment03\\Assignment03.h",
-              "ToolTip": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\ProjectsAssingment03\\Assignment03.h",
+              "ToolTip": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\ProjectsAssingment03\\Assignment03.h",
               "RelativeToolTip": "ProjectsAssingment03\\Assignment03.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-02T01:14:05.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Assignment03.c",
-              "DocumentMoniker": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\ProjectsAssingment03\\Assignment03.c",
+              "DocumentMoniker": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\ProjectsAssingment03\\Assignment03.c",
               "RelativeDocumentMoniker": "ProjectsAssingment03\\Assignment03.c",
-              "ToolTip": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\ProjectsAssingment03\\Assignment03.c",
+              "ToolTip": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\ProjectsAssingment03\\Assignment03.c",
               "RelativeToolTip": "ProjectsAssingment03\\Assignment03.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-02T01:13:47.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Assingment03.Tests.cpp",
-              "DocumentMoniker": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\Assingment03.Tests\\Assingment03.Tests.cpp",
+              "DocumentMoniker": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\Assingment03.Tests\\Assingment03.Tests.cpp",
               "RelativeDocumentMoniker": "Assingment03.Tests\\Assingment03.Tests.cpp",
-              "ToolTip": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\Assingment03.Tests\\Assingment03.Tests.cpp",
+              "ToolTip": "C:\\Users\\kianc\\source\\repos\\ProjectsAssingment03\\CSCN71020Assignment03\\Assingment03.Tests\\Assingment03.Tests.cpp",
               "RelativeToolTip": "Assingment03.Tests\\Assingment03.Tests.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T23:53:18.873Z",
               "EditorCaption": ""
