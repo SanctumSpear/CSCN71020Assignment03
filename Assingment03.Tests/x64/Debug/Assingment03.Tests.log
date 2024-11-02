@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  Assingment03.Tests.cpp
+     Creating library C:\Users\kianc\source\repos\ProjectsAssingment03\x64\Debug\Assingment03.Tests.lib and object C:\Users\kianc\source\repos\ProjectsAssingment03\x64\Debug\Assingment03.Tests.exp
+Assingment03.Tests.obj : error LNK2019: unresolved external symbol RockPaperScissorsResult referenced in function "public: void __cdecl Assingment03Tests::RockPaperScissorsTests::RockPaperScissorsResult_RockRock_Draw(void)" (?RockPaperScissorsResult_RockRock_Draw@RockPaperScissorsTests@Assingment03Tests@@QEAAXXZ)
+C:\Users\kianc\source\repos\ProjectsAssingment03\x64\Debug\Assingment03.Tests.dll : fatal error LNK1120: 1 unresolved externals
