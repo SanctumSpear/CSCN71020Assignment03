@@ -1,41 +1,4 @@
-﻿  pch.cpp
+﻿  Assignment03.c
   Assingment03.Tests.cpp
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(22,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(30,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(38,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(47,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(55,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(63,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(72,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(80,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(88,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(97,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(105,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(113,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
-C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\Assingment03.Tests\Assingment03.Tests.cpp(121,40): error C3861: 'RPSResult': identifier not found
-  (compiling source file '/Assingment03.Tests.cpp')
-  
+     Creating library C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\x64\Debug\Assingment03.Tests.lib and object C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\x64\Debug\Assingment03.Tests.exp
+  Assingment03.Tests.vcxproj -> C:\Users\kianc\source\repos\ProjectsAssingment03\CSCN71020Assignment03\x64\Debug\Assingment03.Tests.dll

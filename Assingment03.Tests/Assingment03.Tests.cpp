@@ -2,7 +2,7 @@
 #include "CppUnitTest.h"
 
 extern "C" {
-	#include "../ProjectsAssingment03/Assignment03.h"
+#include "../ProjectsAssingment03/Assignment03.h"
 }
 
 
