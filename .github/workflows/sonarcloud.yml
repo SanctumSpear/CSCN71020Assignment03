@@ -16,15 +16,15 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           fetch-depth: 0
 
       - name: Set up MSBuild
-        uses: microsoft/setup-msbuild@v2
+        uses: microsoft/setup-msbuild@6fb02220983dee41ce7ae257b6f4d8f9bf5ed4ce # v2
 
       - name: Set up VSTest
-        uses: darenm/Setup-VSTest@v1.3
+        uses: darenm/Setup-VSTest@3a16d909a1f3bbc65b52f8270d475d905e7d3e44 # v1.3
 
       - name: Install OpenCppCoverage
         run: |
@@ -32,7 +32,7 @@ jobs:
           Start-Process -FilePath .\OpenCppCoverageSetup.exe -ArgumentList "/SUPRESSMSGBOXES /NORESTART /VERYSILENT" -NoNewWindow -Wait
 
       - name: Install SonarQube Build Wrapper
-        uses: SonarSource/sonarqube-scan-action/install-build-wrapper@v7
+        uses: SonarSource/sonarqube-scan-action/install-build-wrapper@c7ee0f9df90b7aa20e8dcf9695dcfe2e7da5b4f2 # v7.2.1
 
       - name: Build solution with Build Wrapper
         run: |
@@ -45,6 +45,6 @@ jobs:
           & "C:\Program Files\OpenCppCoverage\OpenCppCoverage.exe" --cover_children --sources="$PWD\ProjectsAssingment03" --modules="*Assingment03*" --export_type=cobertura:coverage.xml -- vstest.console.exe "$testDll"
 
       - name: SonarQube Cloud scan
-        uses: SonarSource/sonarqube-scan-action@v7
+        uses: SonarSource/sonarqube-scan-action@c7ee0f9df90b7aa20e8dcf9695dcfe2e7da5b4f2 # v7.2.1
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
