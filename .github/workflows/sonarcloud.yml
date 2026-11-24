@@ -1,0 +1,50 @@
+name: SonarQube Cloud
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  BUILD_WRAPPER_OUT_DIR: build_wrapper_output_directory
+
+jobs:
+  test-and-scan:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Set up VSTest
+        uses: darenm/Setup-VSTest@v1.3
+
+      - name: Install OpenCppCoverage
+        run: |
+          curl.exe -L https://github.com/OpenCppCoverage/OpenCppCoverage/releases/download/release-0.9.9.0/OpenCppCoverageSetup-x64-0.9.9.0.exe -o OpenCppCoverageSetup.exe
+          Start-Process -FilePath .\OpenCppCoverageSetup.exe -ArgumentList "/SUPRESSMSGBOXES /NORESTART /VERYSILENT" -NoNewWindow -Wait
+
+      - name: Install SonarQube Build Wrapper
+        uses: SonarSource/sonarqube-scan-action/install-build-wrapper@v7
+
+      - name: Build solution with Build Wrapper
+        run: |
+          build-wrapper-win-x86-64.exe --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} msbuild ProjectsAssingment03.sln /t:Rebuild /p:Configuration=Debug /p:Platform=x64 /nodeReuse:false
+
+      - name: Run unit tests with coverage
+        run: |
+          $testDll = (Get-ChildItem -Recurse -Filter "*Tests.dll" | Where-Object { $_.FullName -notmatch "\\obj\\" } | Select-Object -First 1).FullName
+          echo "Found test DLL: $testDll"
+          & "C:\Program Files\OpenCppCoverage\OpenCppCoverage.exe" --cover_children --sources="$PWD\ProjectsAssingment03" --modules="*Assingment03*" --export_type=cobertura:coverage.xml -- vstest.console.exe "$testDll"
+
+      - name: SonarQube Cloud scan
+        uses: SonarSource/sonarqube-scan-action@v7
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
